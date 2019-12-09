@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- 사이드 -->
+    <color name="sideCateColor">#E0E0E0</color>
+    <color name="sideBtnColor">#FFFFFF</color>
+
+    <!-- 테마 색 -->
+    <color name="themeColor">#69B7C2</color>
+
+    <!-- 어정쩡 회색 -->
+    <color name="grayShakeYa">#BDBDBD</color>
+
+</resources>

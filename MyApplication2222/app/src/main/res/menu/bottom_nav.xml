@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/bottom_home"
+        android:title="@string/bottom_home" />
+    <item
+        android:id="@+id/bottom_reser"
+        android:icon="@drawable/bottom_reser"
+        android:title="@string/bottom_reser" />
+    <item
+        android:id="@+id/bottom_care"
+        android:icon="@drawable/bottom_care_pen"
+        android:title="@string/bottom_care" />
+    <item
+        android:id="@+id/bottom_board"
+        android:icon="@drawable/bottom_board"
+        android:title="@string/bottom_board" />
+
+</menu>

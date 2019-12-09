@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Reser.SearchFilter" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/filterCloseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#FAFAFA"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/side_close_btn" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/SearchFilterCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_cate_service" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/SearchFilterLayout"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/filter24Care"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_radio_left" />
+
+                    <RadioButton
+                        android:id="@+id/filterDayCare"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_radio_right" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="#BDBDBD"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                style="@style/SearchFilterCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_cate_date" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/SearchFilterLayout"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/filterStartDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:text="@string/filter_start" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="~"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/filterEndDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:text="@string/filter_end" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="#BDBDBD"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                style="@style/SearchFilterCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_cate_age" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/SearchFilterLayout"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/filterAgeGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/filterDogAge1"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_age1" />
+
+                    <RadioButton
+                        android:id="@+id/filterDogAge2"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_age2" />
+
+                    <RadioButton
+                        android:id="@+id/filterDogAge3"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_age3" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="#BDBDBD"/>
+
+            <TextView
+                android:id="@+id/textView18"
+                style="@style/SearchFilterCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_cate_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/SearchFilterLayout"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/filterSizeGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/filterDogSize1"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_size1" />
+
+                    <RadioButton
+                        android:id="@+id/filterDogSize2"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_size2" />
+
+                    <RadioButton
+                        android:id="@+id/filterDogSize3"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_size3" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="#BDBDBD"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                style="@style/SearchFilterCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_cate_grade" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/SearchFilterLayout"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/filterGradeGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/filterPremiumSiter"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_grade3" />
+
+                    <RadioButton
+                        android:id="@+id/filterGreatSiter"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_grade1" />
+
+                    <RadioButton
+                        android:id="@+id/filterNomalSiter"
+                        style="@style/SearchFilterBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter_grade2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="#BDBDBD"/>
+
+            <TextView
+                android:id="@+id/textView20"
+                style="@style/SearchFilterCate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_cate_tag" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:id="@+id/tagDosage"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textOff="@string/filter_tag_dosage"
+                        android:textOn="@string/filter_tag_dosage"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/tagField"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:textOff="@string/filter_tag_field"
+                        android:textOn="@string/filter_tag_field"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/tagOldDog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:textOff="@string/filter_tag_old_dog"
+                        android:textOn="@string/filter_tag_old_dog"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/tagSickDog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:textOff="@string/filter_tag_sick_dog"
+                        android:textOn="@string/filter_tag_sick_dog"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:id="@+id/tagNoDog"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textOff="@string/filter_tag_certificate"
+                        android:textOn="@string/filter_tag_certificate"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/tagFirstAid"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="@string/filter_tag_out_pee"
+                        android:textOn="@string/filter_tag_out_pee"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/tagCertificate"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="@string/filter_tag_no_dog"
+                        android:textOn="@string/filter_tag_no_dog" />
+
+                    <ToggleButton
+                        android:id="@+id/tagOutPee"
+                        style="@style/SearchFilterTag"
+                        android:background="@drawable/push_button_event"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="@string/filter_tag_first_aid"
+                        android:textOn="@string/filter_tag_first_aid" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/filterSearchBtn"
+                style="@style/SearchFilterDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filter_search"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

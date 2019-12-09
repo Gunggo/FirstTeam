@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- 하단메뉴 타이틀 -->
+    <string name="bottom_home">홈</string>
+    <string name="bottom_reser">예약하기</string>
+    <string name="bottom_care">돌봄일지</string>
+    <string name="bottom_board">커뮤니티</string>
+
+    <!-- 좌상단 메뉴 버튼 -->
+    <string name="top_login">로그인</string>
+    <string name="top_mypage">마이페이지</string>
+    <string name="top_reser_now">예약현황</string>
+    <string name="top_pet_info">반려동물 정보 확인</string>
+    <string name="top_live_chat">실시간 채팅상담</string>
+    <string name="top_cunsult">1:1 문의</string>
+    <string name="top_faq">자주묻는 질문</string>
+    <string name="top_news">공지사항</string>
+    <string name="top_logout">로그아웃</string>
+    <string name="top_revenue">수익 관리</string>
+
+    <!-- 좌상단 메뉴 카테고리 -->
+    <string name="top_header">바로산책/펫시터</string>
+    <string name="top_middle">고객센터</string>
+    <string name="top_footer">펫시터 전용</string>
+
+    <!-- 일지 다이얼로그  -->
+    <string name="note_home">  돌봄 일지</string>
+    <string name="note_walk">  바로산책 일지</string>
+
+    <!-- 예약 다이얼로그  -->
+    <string name="reser_home">  펫시터 예약</string>
+    <string name="reser_walk">  바로산책 예약</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- 그래프  -->
+    <string name="day_total">일일 통계</string>
+    <string name="week_total">주간 통계</string>
+    <string name="month_total">월간 통계</string>
+    <string name="year_total">연간 통계</string>
+    <string name="care_pay">돌봄 수익</string>
+    <string name="walk_pay">바로산책 수익</string>
+    <string name="all_add_total">추정 총 수익</string>
+
+    <!-- 검색필터 카테고리 -->
+    <string name="filter_cate_service">서비스</string>
+    <string name="filter_cate_date">예약일</string>
+    <string name="filter_cate_age">반려견 나이</string>
+    <string name="filter_cate_size">반려견 크기</string>
+    <string name="filter_cate_grade">펫시터 등급</string>
+    <string name="filter_cate_tag">원하는 태그 선택</string>
+
+    <!-- 검색필터 버튼 -->
+    <string name="filter_radio_left">24시간 돌봄</string>
+    <string name="filter_radio_right">Day Care</string>
+    <string name="filter_start">시작 날짜</string>
+    <string name="filter_end">종료 날짜</string>
+    <string name="filter_age1">강아지(1살 이하)</string>
+    <string name="filter_age2">성견(2~6살)</string>
+    <string name="filter_age3">노령견(7살 이상)</string>
+    <string name="filter_size1">소형견(0~4.9kg)</string>
+    <string name="filter_size2">중형견(5~14.9kg)</string>
+    <string name="filter_size3">대형견(15kg이상)</string>
+    <string name="filter_grade1">우수 펫시터</string>
+    <string name="filter_grade2">일반 펫시터</string>
+    <string name="filter_grade3">프리미엄 펫시터</string>
+    <string name="filter_search">검색하기</string>
+
+    <!-- 검색필터 태그 -->
+    <string name="filter_tag_dosage">투약가능</string>
+    <string name="filter_tag_field">마당</string>
+    <string name="filter_tag_old_dog">노령견</string>
+    <string name="filter_tag_sick_dog">환자견</string>
+    <string name="filter_tag_certificate">자격증</string>
+    <string name="filter_tag_out_pee">실외배변</string>
+    <string name="filter_tag_no_dog">반려견 없는 곳</string>
+    <string name="filter_tag_first_aid">응급처치</string>
+</resources>

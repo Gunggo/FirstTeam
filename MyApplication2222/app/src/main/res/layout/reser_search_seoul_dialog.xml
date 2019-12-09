@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/gangNam"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강남구(8)" />
+
+        <CheckBox
+            android:id="@+id/gangDong"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강동구(7)" />
+
+        <CheckBox
+            android:id="@+id/gangBook"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강북구(6)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/gangSe"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강서구(13)" />
+
+        <CheckBox
+            android:id="@+id/gaunAk"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="관악구(12)" />
+
+        <CheckBox
+            android:id="@+id/gaungJin"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="광진구(5)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/guRo"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="구로구(4)" />
+
+        <CheckBox
+            android:id="@+id/gumChen"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금천구(6)" />
+
+        <CheckBox
+            android:id="@+id/noWon"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="노원구(7)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/doBong"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="도봉구(4)" />
+
+        <CheckBox
+            android:id="@+id/dongDae"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동대문구(4)" />
+
+        <CheckBox
+            android:id="@+id/dongJakguman"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동작구(6)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/maPo"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마포구(10)" />
+
+        <CheckBox
+            android:id="@+id/seoDae"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서대문구(9)" />
+
+        <CheckBox
+            android:id="@+id/seoCho"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서초구(6)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/seongDong"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성동구(3)" />
+
+        <CheckBox
+            android:id="@+id/seongBook"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성북구(9)" />
+
+        <CheckBox
+            android:id="@+id/songPa"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="송파구(9)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/yangCheon"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="양천구(5)" />
+
+        <CheckBox
+            android:id="@+id/yungDeong"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영등포구(11)" />
+
+        <CheckBox
+            android:id="@+id/yooogSan"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="용산구(8)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/enPeyng"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="은평구(6)" />
+
+        <CheckBox
+            android:id="@+id/jongRo"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="종로구(3)" />
+
+        <CheckBox
+            android:id="@+id/joongGugasikiduna"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중구(2)" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/joongRang"
+            style="@style/SearchLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중랑구(3)" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_radius_check"
+        android:text="확인"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/resetLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="선택 초기화"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/closeDialog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/side_close_btn" />
+
+</LinearLayout>

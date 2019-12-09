@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SideNav.SideNavMain"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/myPageBtn"
+            style="@style/SideTop"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:drawableLeft="@drawable/bottom_home"
+            android:background="#FAFAFA"
+            android:text="  홍길동 고객님" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/SideCate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_header"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <Button
+            android:id="@+id/reserListBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_reser_now"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <Button
+            android:id="@+id/petInfoBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_pet_info"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/SideCate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_middle" />
+
+        <Button
+            android:id="@+id/liveChatBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_live_chat"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <Button
+            android:id="@+id/cunsultBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_cunsult"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <Button
+            android:id="@+id/faqBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_faq"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <Button
+            android:id="@+id/newsBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_news"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <Button
+            android:id="@+id/logOutBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_logout"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/SideCate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_footer" />
+
+        <Button
+            android:id="@+id/revenueBtn"
+            style="@style/SideBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/top_revenue"
+            app:itemBackground="@drawable/side_btn_rectangle" />
+
+
+    </LinearLayout>
+</ScrollView>
+

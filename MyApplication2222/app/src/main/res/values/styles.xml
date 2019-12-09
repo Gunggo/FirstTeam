@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- 사이드 버튼 스타일 -->
+    <style name="SideBtn">
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/side_btn_rectangle</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:drawableRight">@drawable/right_arrow</item>
+    </style>
+
+    <!-- 사이드 카테고리 스타일 -->
+    <style name="SideCate">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:background">@color/sideCateColor</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+
+    <!-- 사이드 최상단 -->
+    <style name="SideTop">
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/side_btn_rectangle</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:drawableRight">@drawable/right_arrow</item>
+    </style>
+
+    <!-- 로그인 에딧 텍스트 스타일 -->
+    <style name="loginText">
+        <item name="android:background">@drawable/text_border</item>
+    </style>
+
+    <!-- 검색필터 버튼 -->
+    <style name="SearchFilterBtn">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <!-- 검색필터 카테고리 -->
+    <style name="SearchFilterCate">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!-- 검색필터 레이아웃 바텀마진 -->
+    <style name="SearchFilterLayout">
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <!-- 검색필터 태그 버튼 -->
+    <style name="SearchFilterTag">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/button_radius_uncheck</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!-- 검색필터 검색 버튼 -->
+    <style name="SearchFilterDone">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#69B7C2</item>
+    </style>
+
+    <!-- 지역검색 -->
+    <style name="SearchLocal">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:width">110dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>
